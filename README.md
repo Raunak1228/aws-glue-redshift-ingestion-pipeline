@@ -28,6 +28,9 @@ This project automates the incremental ingestion of data into an AWS Redshift da
 ## Architecture
 The architecture of the project is designed to leverage various AWS services in a cohesive manner to automate data ingestion and quality assurance processes.
 
+![image](https://github.com/user-attachments/assets/337582e0-2ca4-45be-a4b8-18dba5f811dc)
+
+
 ### Components:
 - **AWS S3**: Acts as the data lake, storing incoming transaction files.
 - **AWS Glue**: Serves as the ETL tool, utilizing job bookmarking for incremental ingestion and running data quality checks.
